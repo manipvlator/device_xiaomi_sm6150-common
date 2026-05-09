@@ -30,3 +30,8 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+# Infinity-X
+ro.product.marketname=Redmi Note 10 Pro
+ro.infinity.soc=Snapdragon 732G
+ro.infinity.camera=108 MP - Ultra Premium
