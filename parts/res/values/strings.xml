@@ -30,4 +30,8 @@
     <string name="thermal_navigation">Navigation</string>
     <string name="thermal_streaming">Streaming</string>
     <string name="thermal_video">Video</string>
+    
+    <!-- Doze Settings -->
+    <string name="doze_settings_help_title">Help</string>
+    <string name="doze_settings_help_text">These features use sensor events to show notifications while the device is in Doze mode. The selected sensor is enabled only when a notification is received to help reduce battery usage. There is also an option to enable the selected sensor immediately after the screen turns off, which may use more battery.</string>
 </resources>
