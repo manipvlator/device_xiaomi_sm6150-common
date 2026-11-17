@@ -99,12 +99,6 @@ case "$soc_id" in
     echo 65 > /proc/sys/kernel/sched_downmigrate
     echo 85 > /proc/sys/kernel/sched_upmigrate
 
-    # setup default governor settings for little cluster
-    echo "reflex" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-
-    # setup default governor settings for big cluster
-    echo "reflex" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
-
     # Configure default schedTune value for foreground/top-app
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
     echo 10 > /dev/stune/top-app/schedtune.boost
@@ -195,12 +189,6 @@ case "$soc_id" in
     echo 65 > /proc/sys/kernel/sched_upmigrate_boosted
     echo 65 > /proc/sys/kernel/sched_downmigrate
     echo 85 > /proc/sys/kernel/sched_upmigrate
-
-    # setup default governor settings for little cluster
-    echo "reflex" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-
-    # setup default governor settings for big cluster
-    echo "reflex" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
 
     # Configure default schedTune value for foreground/top-app
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
