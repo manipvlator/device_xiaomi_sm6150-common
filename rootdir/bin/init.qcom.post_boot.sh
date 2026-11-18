@@ -261,6 +261,31 @@ esac
     echo 0 > /proc/sys/vm/oom_dump_tasks
     echo 0 > /proc/sys/vm/page-cluster
 
+function configure_read_ahead_kb_values() {
+    MemTotalStr=`cat /proc/meminfo | grep MemTotal`
+    MemTotal=${MemTotalStr:16:8}
+
+    # Set 128 for <= 3GB &
+    # set 512 for >= 4GB targets.
+    if [ $MemTotal -le 3145728 ]; then
+        read_ahead=128
+        nr_requests=128
+    else
+        read_ahead=512
+        nr_requests=256
+    fi
+
+    # UFS, so the queue lives on sda and its dm targets.
+    for blk in /sys/block/sd* /sys/block/dm-*; do
+        [ -e "$blk/queue/read_ahead_kb" ] || continue
+        echo $read_ahead > $blk/queue/read_ahead_kb
+        echo $nr_requests > $blk/queue/nr_requests
+    done
+}
+
+configure_read_ahead_kb_values
+
+
 # Enable PowerHAL hint processing
 setprop vendor.powerhal.init 1
 
