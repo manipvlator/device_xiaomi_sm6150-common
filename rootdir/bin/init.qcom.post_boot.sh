@@ -29,55 +29,6 @@
 
 target=`getprop ro.board.platform`
 
-function configure_memory_parameters() {
-    # Set Memory parameters.
-    #
-    # Set per_process_reclaim tuning parameters
-    # All targets will use vmpressure range 50-70,
-    # All targets will use 512 pages swap size.
-    #
-    # Set Low memory killer minfree parameters
-    # 64 bit will use Google default LMK series.
-    #
-    # Set ALMK parameters (usually above the highest minfree values)
-    # vmpressure_file_min threshold is always set slightly higher
-    # than LMK minfree's last bin value for all targets. It is calculated as
-    # vmpressure_file_min = (last bin - second last bin ) + last bin
-
-    # Read adj series and set adj threshold for PPR and ALMK.
-    # This is required since adj values change from framework to framework.
-    adj_series=`cat /sys/module/lowmemorykiller/parameters/adj`
-    adj_1="${adj_series#*,}"
-    set_almk_ppr_adj="${adj_1%%,*}"
-
-    # PPR and ALMK should not act on HOME adj and below.
-    # Normalized ADJ for HOME is 6. Hence multiply by 6
-    # ADJ score represented as INT in LMK params, actual score can be in decimal
-    # Hence add 6 considering a worst case of 0.9 conversion to INT (0.9*6).
-    # For uLMK + Memcg, this will be set as 6 since adj is zero.
-    set_almk_ppr_adj=$(((set_almk_ppr_adj * 6) + 6))
-    echo $set_almk_ppr_adj > /sys/module/lowmemorykiller/parameters/adj_max_shift
-
-    # Calculate vmpressure_file_min as below & set for 64 bit:
-    # vmpressure_file_min = last_lmk_bin + (last_lmk_bin - last_but_one_lmk_bin)
-    minfree_series=`cat /sys/module/lowmemorykiller/parameters/minfree`
-    minfree_1="${minfree_series#*,}" ; rem_minfree_1="${minfree_1%%,*}"
-    minfree_2="${minfree_1#*,}" ; rem_minfree_2="${minfree_2%%,*}"
-    minfree_3="${minfree_2#*,}" ; rem_minfree_3="${minfree_3%%,*}"
-    minfree_4="${minfree_3#*,}" ; rem_minfree_4="${minfree_4%%,*}"
-    minfree_5="${minfree_4#*,}"
-
-    vmpres_file_min=$((minfree_5 + (minfree_5 - rem_minfree_4)))
-    echo $vmpres_file_min > /sys/module/lowmemorykiller/parameters/vmpressure_file_min
-
-    echo "18432,23040,27648,64512,165888,225792" > /sys/module/lowmemorykiller/parameters/minfree
-
-    # Enable adaptive LMK for all targets &
-    # use Google default LMK series for all 64-bit targets >=2GB.
-    echo 1 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
-    echo 1 > /sys/module/lowmemorykiller/parameters/oom_reaper
-}
-
 # Apply settings for sm6150
 # Set the default IRQ affinity to the silver cluster. When a
 # CPU is isolated/hotplugged, the IRQ affinity is adjusted
@@ -103,9 +54,6 @@ case "$soc_id" in
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
     echo 10 > /dev/stune/top-app/schedtune.boost
     echo 1 > /dev/stune/top-app/schedtune.prefer_idle
-
-    # Set Memory parameters
-    configure_memory_parameters
 
     # Enable bus-dcvs
     for device in /sys/devices/platform/soc
@@ -194,9 +142,6 @@ case "$soc_id" in
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
     echo 10 > /dev/stune/top-app/schedtune.boost
     echo 1 > /dev/stune/top-app/schedtune.prefer_idle
-
-    # Set Memory parameters
-    configure_memory_parameters
 
     # Enable bus-dcvs
     for device in /sys/devices/platform/soc
@@ -290,16 +235,7 @@ case "$soc_id" in
 esac
 
     # BORE Scheduler tunning
-    echo 1 > /proc/sys/kernel/sched_boost
     echo 1 > /proc/sys/kernel/sched_child_runs_first
-    echo 1 > /proc/sys/kernel/sched_cstate_aware
-    echo 0 > /proc/sys/kernel/sched_energy_aware
-    echo 1 > /proc/sys/kernel/sched_sync_hint_enable
-    echo 6000000 > /proc/sys/kernel/sched_latency_ns
-    echo 1000000 > /proc/sys/kernel/sched_min_granularity_ns
-    echo 500000 > /proc/sys/kernel/sched_wakeup_granularity_ns
-    echo 250000 > /proc/sys/kernel/sched_migration_cost_ns
-    echo 64 > /proc/sys/kernel/sched_nr_migrate
     echo 8000000 > /proc/sys/kernel/sched_burst_cache_lifetime
     echo 2 > /proc/sys/kernel/sched_burst_fork_atavistic
     echo 12 > /proc/sys/kernel/sched_burst_penalty_offset
