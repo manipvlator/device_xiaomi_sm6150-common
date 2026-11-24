@@ -407,3 +407,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enable DM file pre-opting to reduce first boot time
 PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
+
+# RAM expansion controller
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/ram_expansion.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ram_expansion.sh
+
