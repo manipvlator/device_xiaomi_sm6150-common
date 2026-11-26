@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="depth_wallpaper_models_required">Unduh model wallpaper kedalaman sebelum mengekstrak subjek.</string>
+<string name="depth_wallpaper_models_title">Model wallpaper kedalaman</string>
+</resources>

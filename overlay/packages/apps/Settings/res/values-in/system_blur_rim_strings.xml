@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="system_blur_preview_backdrop_dark">Gelap</string>
+<string name="system_blur_preview_backdrop_light">Terang</string>
+<string name="system_blur_preview_copied">Nilai buram disalin ke papan klip</string>
+<string name="system_blur_preview_copy">Salin</string>
+<string name="system_blur_preview_default_label">Bawaan</string>
+<string name="system_blur_preview_description">Pratinjau langsung buram sistem, warna, dan tepi kaca</string>
+<string name="system_blur_preview_dialog_title">Nilai buram saat ini</string>
+<string name="system_blur_preview_disabled_label">Nonaktif</string>
+<string name="system_blur_preview_reset_rim">Atur ulang tepi</string>
+<string name="system_blur_preview_rim_reset_done">Nilai tepi kaca dikembalikan ke bawaan</string>
+<string name="system_blur_preview_state_off">Matikan</string>
+<string name="system_blur_preview_state_on">Aktif</string>
+<string name="system_blur_preview_values_button">Nilai &amp; uji</string>
+<string name="system_blur_rim_bottom_title">Kecerahan tepi bawah</string>
+<string name="system_blur_rim_category">Tepi kaca</string>
+<string name="system_blur_rim_color_title">Warna tepi</string>
+<string name="system_blur_rim_corner_brightness_title">Kecerahan sudut</string>
+<string name="system_blur_rim_corner_width_summary" formatted="false">Nilai lebih rendah membuat sudut lebih tipis; 100% menjaga lebar tetap seragam</string>
+<string name="system_blur_rim_corner_width_title">Lebar sudut</string>
+<string name="system_blur_rim_depth_title">Kedalaman cahaya</string>
+<string name="system_blur_rim_glow_title">Kecerahan cahaya</string>
+<string name="system_blur_rim_side_title">Kecerahan tepi samping</string>
+<string name="system_blur_rim_strength_title">Kecerahan keseluruhan</string>
+<string name="system_blur_rim_summary">Tambahkan sorotan tepi lembut pada permukaan buram sistem dan peluncur</string>
+<string name="system_blur_rim_taper_summary">Nilai lebih tinggi memusatkan penipisan secara lebih sempit di sudut</string>
+<string name="system_blur_rim_taper_title">Peruncing sudut</string>
+<string name="system_blur_rim_title">Aktifkan tepi kaca</string>
+<string name="system_blur_rim_top_title">Kecerahan tepi atas</string>
+<string name="system_blur_rim_width_title">Lebar tepi</string>
+</resources>
