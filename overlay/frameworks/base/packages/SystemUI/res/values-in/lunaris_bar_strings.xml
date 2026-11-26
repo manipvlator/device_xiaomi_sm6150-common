@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="lunaris_bar_screen_sharing">Berbagi layar</string>
+<string name="lunaris_bar_privacy_settings">Setelan privasi</string>
+<string name="lunaris_bar_battery_settings">Setelan baterai</string>
+<string name="lunaris_bar_answer">Jawab</string>
+<string name="lunaris_bar_end_call">Akhiri panggilan</string>
+<string name="lunaris_bar_swipe_dismiss">Geser untuk menutup</string>
+<string name="lunaris_bar_media_favorite">Favorit</string>
+<string name="lunaris_bar_media_output">Output audio</string>
+</resources>

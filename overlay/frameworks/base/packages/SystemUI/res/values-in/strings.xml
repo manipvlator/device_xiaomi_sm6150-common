@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_island_screen_record_short">REK</string>
+<string name="dynamic_island_screen_record_active">Perekaman sedang berjalan</string>
+<string name="dynamic_island_screen_record_countdown">Mulai dalam %1$ss</string>
+<string name="dynamic_island_alarm_title">Alarm berikutnya</string>
+<string name="dynamic_island_flashlight_enabled">Aktif</string>
+<string name="dynamic_island_flashlight_short">AKTIF</string>
+<string name="dynamic_island_open_action">Buka</string>
+<string name="dynamic_island_open_clock_action">Buka jam</string>
+<string name="dynamic_island_alarm_active_title">Alarm</string>
+<string name="dynamic_island_action_snooze">Tunda</string>
+<string name="dynamic_island_action_lap">Putaran</string>
+<string name="dynamic_island_action_stop">Hentikan</string>
+<string name="dynamic_island_action_resume">Lanjutkan</string>
+<string name="keyguard_face_failed_use_fp">Wajah tidak dikenali. Gunakan sidik jari.</string>
+<string name="accessibility_casting">Melakukan transmisi</string>
+<string name="media_projection_entry_app_permission_dialog_option_text_single_app">Bagikan satu aplikasi</string>
+<string name="media_projection_entry_app_permission_dialog_option_text_entire_screen">Bagikan seluruh layar</string>
+<string name="volume_panel_expand_sliders">Perluas kontrol volume</string>
+<string name="status_bar_classic_icons_title">Ganti ke ikon bilah status klasik</string>
+<string name="status_bar_classic_icons_summary">Tampilkan ikon Wi-Fi, sinyal, dan baterai terisi</string>
+<string name="tuner_restart_systemui_dialog_title">Mulai ulang SystemUI?</string>
+<string name="tuner_restart_systemui_dialog_message">SystemUI perlu dimulai ulang untuk menerapkan perubahan ini. Lanjutkan?</string>
+<string name="zen_alarm_warning_indef">Kamu takkan mendengar alarm berikutnya <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> kecuali kamu mematikan mode \'Jangan Ganggu\' sebelum waktu itu</string>
+<string name="accessibility_status_bar_volte">VoLTE</string>
+<string name="accessibility_status_bar_vowifi">Panggilan Wi-Fi</string>
+<string name="accessibility_status_bar_vonr">VoNR</string>
+<string name="accessibility_pager_dots_navigate_to_next_page_action">berpindah ke halaman berikutnya</string>
+</resources>

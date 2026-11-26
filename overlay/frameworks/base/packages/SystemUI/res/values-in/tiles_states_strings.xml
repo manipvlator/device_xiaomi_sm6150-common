@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="tile_states_default">
+        <item>Tidak tersedia</item>
+        <item>Nonaktif</item>
+        <item>Aktif</item>
+    </string-array>
+</resources>

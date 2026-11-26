@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="lunaris_qs_widget_title">Widget aplikasi</string>
+<string name="lunaris_qs_widget_choose">Pilih widget</string>
+<string name="lunaris_qs_widget_back">Kembali</string>
+<string name="lunaris_qs_widget_search">Cari aplikasi dan widget</string>
+<string name="lunaris_qs_widget_performance_warning">Widget membuat Setelan Cepat lebih berat dan bisa menyebabkan lag. Animasi berhenti saat Anda menggeser panel.</string>
+<string name="lunaris_qs_widget_frame_size">Ruang widget: %1$d × %2$d dp. Ubah ukurannya di editor panel. Widget besar akan diperkecil agar muat.</string>
+<string name="lunaris_qs_widget_current">Widget saat ini</string>
+<string name="lunaris_qs_widget_show_background">Tampilkan latar ubin</string>
+<string name="lunaris_qs_widget_show_background_summary">Matikan untuk menampilkan widget saja, tanpa latar atau batas ubin.</string>
+<string name="lunaris_qs_widget_remove">Hapus widget</string>
+<string name="lunaris_qs_widget_select_again">Pilih salinan baru</string>
+<string name="lunaris_qs_widget_unavailable">Widget tidak tersedia. Pilih yang lain.</string>
+<string name="lunaris_qs_widget_error">Gagal memuat atau mengonfigurasi widget. Coba widget lain.</string>
+<string name="lunaris_qs_widget_empty">Tidak ada widget yang cocok</string>
+<string name="lunaris_qs_widget_preview">Pratinjau %1$s</string>
+<string name="lunaris_qs_widget_no_preview">Pratinjau tidak tersedia</string>
+<string name="lunaris_qs_content_size">Ukuran: %1$d × %2$d</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_icons_title">Ikon bilah status</string>
+    <string name="edge_aurora_title">Aurora Tepi</string>
+    <string name="camera">Kamera</string>
+    <string name="clock_timer">Jam/Timer</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="gallery">Galeri</string>
+    <string name="lunaris_bar_auto_brightness">Kecerahan adaptif</string>
+    <string name="lunaris_bar_barcode_error">Konten ini tidak dapat dikodekan dalam format yang dipilih.</string>
+    <string name="lunaris_bar_charging">Mengisi daya</string>
+    <string name="lunaris_bar_minutes_value">%1$d mnt</string>
+    <string name="lunaris_bar_no_shortcuts">Tambahkan aplikasi, kontak, atau tindakan di setelan LunarisBar.</string>
+    <string name="lunaris_bar_off">Nonaktif</string>
+    <string name="lunaris_bar_on">Aktif</string>
+    <string name="lunaris_bar_on_battery">Menggunakan baterai</string>
+    <string name="lunaris_bar_open">Buka</string>
+    <string name="lunaris_bar_start_timer">Mulai timer</string>
+    <string name="lunaris_bar_title">LunarisBar</string>
+    <string name="lunaris_bar_widget_unavailable">Widget ini tidak tersedia. Tambahkan lagi di setelan LunarisBar.</string>
+    <string name="lunaris_bar_privacy">Kamera dan mikrofon</string>
+    <string name="lunaris_bar_settings">Setelan</string>
+    <string name="lunaris_bar_night_colors">Ubah warna tema gelap</string>
+    <string name="lunaris_bar_palette_day">Palet tema terang</string>
+    <string name="lunaris_bar_palette_night">Palet tema gelap</string>
+    <string name="essential_notifications_summary">Pesan dan pemberitahuan penting</string>
+    <string name="dynamic_island_stopwatch_title">Stopwatch</string>
+</resources>

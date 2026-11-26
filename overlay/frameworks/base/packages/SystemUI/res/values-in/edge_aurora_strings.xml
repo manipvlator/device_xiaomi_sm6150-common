@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="edge_aurora_peek_hint">Ketuk untuk membuka · Geser untuk menghapus</string>
+<string name="edge_aurora_peek_app">Intip notifikasi %1$s</string>
+<string name="edge_aurora_expand">Perluas</string>
+<string name="edge_aurora_reply">Balas</string>
+<string name="edge_aurora_reply_hint">Balas…</string>
+<string name="edge_aurora_reply_failed">Gagal mengirim. Balasanmu tersimpan; coba lagi atau buka aplikasinya.</string>
+<string name="edge_aurora_send">Kirim</string>
+<string name="edge_aurora_collapse">Ciutkan</string>
+<string name="edge_aurora_clear">Hapus</string>
+<string name="edge_aurora_open_app">Buka aplikasi</string>
+<string name="edge_aurora_float">Mengambang</string>
+<string name="edge_aurora_unlock">Buka kunci untuk membaca</string>
+<string name="edge_aurora_attachment">Lampiran</string>
+</resources>

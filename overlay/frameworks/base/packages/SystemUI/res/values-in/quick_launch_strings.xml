@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="fingerprint_ql_guide_glide_message">Geser ke ikon dan lepaskan untuk membuka</string>
+<string name="fingerprint_ql_guide_down_to_edit_message">Geser ke bawah untuk mengedit menu</string>
+<string name="fingerprint_ql_edit_message">Lepaskan untuk mengedit menu</string>
+<string name="fingerprint_ql_recommend_message">Buka fungsi atau aplikasi dengan cepat</string>
+<string name="fingerprint_ql_recommend_sub_message">Geser ke ikon kosong dan lepaskan untuk menambah fungsi atau aplikasi untuk dibuka cepat.</string>
+<string name="fingerprint_ql_setting_edit_title">Edit menu peluncuran cepat</string>
+</resources>
