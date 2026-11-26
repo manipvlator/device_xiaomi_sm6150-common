@@ -1,0 +1,35 @@
+<resources>
+    <string name="extra_info_title">Widget info tambahan</string>
+    <string name="extra_info_summary">Pilih desain ClockMorph dalam baris atau tempatkan hingga lima di mana saja pada layar kunci. Menggantikan widget info perangkat selama diaktifkan.</string>
+    <string name="extra_info_blur">Latar buram widget</string>
+    <string name="extra_info_blur_summary">Lembutkan wallpaper di belakang kartu widget</string>
+    <string name="extra_info_preview">Pratinjau widget · data contoh</string>
+    <string name="extra_info_empty">Pilih widget untuk salah satu baris untuk memulai</string>
+    <string name="extra_info_capacity">Slot per baris</string>
+    <string name="extra_info_slots">%1$d slot</string>
+    <string name="extra_info_layout_hint">Widget kecil memakai satu slot, widget lebar memakai dua, dan widget inline memenuhi satu baris. Hapus widget sebelum mengurangi baris penuh dari lima slot menjadi empat.</string>
+    <string name="extra_info_row">Baris %1$d · %2$d/%3$d slot</string>
+    <string name="extra_info_choose">Pilih widget</string>
+    <string name="extra_info_move_before">Pindah lebih awal di baris</string>
+    <string name="extra_info_move_after">Pindah lebih akhir di baris</string>
+    <string name="extra_info_remove">Hapus %1$s</string>
+    <string name="extra_info_picker_hint">Ketuk desain untuk menambahkannya ke baris ini. Ketuk desain yang dipilih untuk menghapusnya. Desain yang tidak muat akan diredupkan.</string>
+    <string name="extra_info_selected">Dipilih di baris %1$d</string>
+    <string name="extra_info_mode">Penempatan</string>
+    <string name="extra_info_mode_rows">Dua baris</string>
+    <string name="extra_info_mode_independent">Bebas</string>
+    <string name="extra_info_independent_hint">Tempatkan hingga lima widget di mana saja, termasuk di atas jam. Jam, notifikasi, dan elemen lain tetap pada posisinya. Tata letak dua baris Anda disimpan terpisah.</string>
+    <string name="extra_info_edit_positions">Edit posisi dan ukuran widget</string>
+    <string name="extra_info_editor_title">Atur widget</string>
+    <string name="extra_info_editor_hint">Seret widget untuk memindahkannya. Pilih salah satu di bawah untuk menyesuaikan ukuran atau posisinya, atau menghapusnya. Pratinjau memakai data contoh.</string>
+    <string name="extra_info_widget_count">%1$d / %2$d widget</string>
+    <string name="extra_info_add_widget">Tambah widget</string>
+    <string name="extra_info_limit">Maksimal 5 widget</string>
+    <string name="extra_info_save">Simpan</string>
+    <string name="extra_info_size">Ukuran</string>
+    <string name="extra_info_horizontal">Horizontal</string>
+    <string name="extra_info_vertical">Vertikal</string>
+    <string name="extra_info_front">Bawa ke depan</string>
+    <string name="extra_info_select_hint">Tambahkan widget, lalu seret ke mana saja pada pratinjau.</string>
+    <string name="extra_info_picker_independent_hint">Pilih desain untuk ditambahkan ke pratinjau. Hingga lima widget dapat ditempatkan secara bebas.</string>
+</resources>

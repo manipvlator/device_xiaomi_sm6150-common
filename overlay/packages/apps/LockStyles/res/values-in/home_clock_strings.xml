@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="home_clock_use_small">Gunakan jam kecil</string>
+<string name="home_clock_use_small_summary">Gunakan tata letak Jam Dinamis kecil di layar utama.</string>
+</resources>

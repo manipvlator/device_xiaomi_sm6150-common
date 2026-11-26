@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Lock screen settings strings, moved from Singularity (packages/apps/Singularity).
+     SPDX-FileCopyrightText: 2016-2026 crDroid Android Project
+     SPDX-FileCopyrightText: 2023-2024 The risingOS Android Project
+     SPDX-FileCopyrightText: 2024-2026 Lunaris AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lockscreen_custom_clock_color_mode_entries" translatable="false">
+        <item>@string/default_value</item>
+        <item>@string/accent_color</item>
+        <item>@string/custom_color</item>
+    </string-array>
+    <string-array name="lockscreen_custom_clock_color_mode_values" translatable="false">
+        <item>default</item>
+        <item>accent</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="lockscreen_media_art_filter_entries">
+        <item>Tidak ada</item>
+        <item>Buram</item>
+        <item>Skala abu-abu</item>
+        <item>Sepia</item>
+        <item>Tint kustom</item>
+        <item>Balikkan warna</item>
+        <item>Skala abu-abu + buram</item>
+        <item>Efek pikselasi/mosaik</item>
+    </string-array>
+    <string-array name="lockscreen_media_art_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="lockscreen_widgets_style_entries">
+        <item>@string/lockscreen_widgets_style1</item>
+        <item>@string/lockscreen_widgets_style2</item>
+        <item>@string/lockscreen_widgets_style3</item>
+        <item>@string/lockscreen_widgets_style4</item>
+        <item>@string/lockscreen_widgets_style5</item>
+        <item>@string/lockscreen_widgets_style6</item>
+    </string-array>
+    <string-array name="lockscreen_widgets_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nowplaying_color_mode_entries" translatable="false">
+        <item>White</item>
+        <item>Accent color</item>
+        <item>Album art</item>
+    </string-array>
+    <string-array name="nowplaying_color_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="nowplaying_icon_style_entries">
+        <item>Nonaktif</item>
+        <item>Ikon aplikasi</item>
+        <item>Ikon not musik</item>
+    </string-array>
+    <string-array name="nowplaying_icon_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pulse_bass_haptics_entries" translatable="false">
+        <item>@string/pulse_bass_haptics_none</item>
+        <item>@string/pulse_bass_haptics_running</item>
+        <item>@string/pulse_bass_haptics_always</item>
+    </string-array>
+    <string-array name="pulse_bass_haptics_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pulse_capture_mode_entries" translatable="false">
+        <item>@string/pulse_capture_mode_fft</item>
+        <item>@string/pulse_capture_mode_amplitude</item>
+    </string-array>
+    <string-array name="pulse_capture_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pulse_color_entries" translatable="false">
+        <item>@string/pulse_color_lavalamp</item>
+        <item>@string/pulse_color_album</item>
+        <item>@string/pulse_color_accent</item>
+        <item>@string/custom_color</item>
+    </string-array>
+    <string-array name="pulse_color_values" translatable="false">
+        <item>lavalamp</item>
+        <item>album</item>
+        <item>accent</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="pulse_renderer_entries" translatable="false">
+        <item>@string/pulse_renderer_solid</item>
+        <item>@string/pulse_renderer_fading</item>
+        <item>@string/pulse_renderer_neon_glow</item>
+        <item>@string/pulse_renderer_retro_vu_meter</item>
+        <item>@string/pulse_renderer_minimal_wave</item>
+        <item>@string/pulse_renderer_sparkle</item>
+        <item>@string/pulse_renderer_matrix</item>
+        <item>@string/pulse_renderer_particle</item>
+        <item>@string/pulse_renderer_waveform</item>
+        <item>@string/pulse_renderer_dot_wave</item>
+    </string-array>
+    <string-array name="pulse_renderer_values" translatable="false">
+        <item>solid</item>
+        <item>fading</item>
+        <item>neon</item>
+        <item>retro</item>
+        <item>minimal</item>
+        <item>sparkle</item>
+        <item>matrix</item>
+        <item>particle</item>
+        <item>waveform</item>
+        <item>dotwave</item>
+    </string-array>
+    <string-array name="udfps_icon_type_entries">
+        <item>Ikon bawaan</item>
+        <item>Ikon kustom</item>
+    </string-array>
+    <string-array name="udfps_icon_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="widget_entries">
+        <item>@string/status_bar_date_none</item>
+	<item>@string/calculator</item>
+	<item>@string/media</item>
+	<item>@string/clock_timer</item>
+        <item>@string/torch</item>
+        <item>@string/weather</item>
+        <item>@string/wifi</item>
+        <item>@string/data</item>
+        <item>@string/ringer</item>
+        <item>@string/bt</item>
+        <item>@string/hotspot</item>
+        <item>@string/wallet</item>
+        <item>@string/qr_scanner</item>
+    </string-array>
+    <string-array name="widget_values">
+	<item>none</item>
+	<item>calculator</item>
+	<item>media</item>
+	<item>timer</item>
+        <item>torch</item>
+        <item>weather</item>
+        <item>wifi</item>
+        <item>data</item>
+        <item>ringer</item>
+        <item>bt</item>
+        <item>hotspot</item>
+        <item>wallet</item>
+        <item>qrscanner</item>
+    </string-array>
+    <string name="accent_color">Warna aksen</string>
+    <string name="aod_brightness_title">Kecerahan AOD</string>
+    <string name="bt">Bluetooth</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="clock_album_art_color_summary">Ganti warna jam dengan palet sampul album saat media sedang diputar</string>
+    <string name="clock_album_art_color_title">Jam dengan warna sampul album</string>
+    <string name="clock_size_summary">Ubah skala jam layar kunci (50–150%)</string>
+    <string name="clock_size_title">Ukuran jam</string>
+    <string name="clock_timer">Jam/Timer</string>
+    <string name="custom_clock_weather_summary">Tampilkan cuaca pada jam layar kunci kustom</string>
+    <string name="custom_clock_weather_title">Cuaca layar kunci</string>
+    <string name="custom_color">Warna kustom</string>
+    <string name="custom_color_summary">Warna kustom untuk beberapa gaya jam</string>
+    <string name="custom_widgets1">Widget mini 1</string>
+    <string name="custom_widgets2">Widget mini 2</string>
+    <string name="custom_widgets3">Widget mini 3</string>
+    <string name="custom_widgets4">Widget mini 4</string>
+    <string name="data">Data</string>
+    <string name="default_value">Default</string>
+    <string name="depth_wallpaper_bottom_fade_summary">Pudarkan wallpaper di bagian bawah</string>
+    <string name="depth_wallpaper_bottom_fade_title">Pudar bawah</string>
+    <string name="depth_wallpaper_bottom_inset_summary">Atur inset wallpaper di bagian bawah</string>
+    <string name="depth_wallpaper_bottom_inset_title">Inset bawah</string>
+    <string name="depth_wallpaper_fade_curve_summary">Atur kurva pudar wallpaper</string>
+    <string name="depth_wallpaper_fade_curve_title">Kurva pudar</string>
+    <string name="depthwall_auto_subject_summary">Ekstrak subjek dari wallpaper secara otomatis untuk efek kedalaman</string>
+    <string name="depthwall_auto_subject_title">Subjek otomatis wallpaper kedalaman</string>
+    <string name="depthwall_clear_subject_summary">Hapus subjek yang diekstrak saat ini atau yang diatur secara manual</string>
+    <string name="depthwall_clear_subject_title">Hapus gambar subjek</string>
+    <string name="depthwall_extract_now_summary">Jalankan ekstraksi subjek dari wallpaper sekarang juga (atur wallpaper secara terpisah untuk layar kunci)</string>
+    <string name="depthwall_extract_now_title">Ekstrak subjek sekarang</string>
+    <string name="depthwall_file_header_select_summary">Pilih gambar subjek wallpaper kedalaman dari penyimpanan.</string>
+    <string name="depthwall_file_header_select_title">Pilih subjek wallpaper kedalaman</string>
+    <string name="depthwall_spatial_effect_summary">Geser lapisan wallpaper mengikuti gerakan perangkat untuk efek 3D</string>
+    <string name="depthwall_spatial_effect_title">Efek spasial 3D</string>
+    <string name="depthwall_spatial_sensitivity_summary">Atur besar gerakan pada efek wallpaper 3D</string>
+    <string name="depthwall_spatial_sensitivity_title">Sensitivitas efek 3D</string>
+    <string name="depthwall_footer_text">
+        Fitur wallpaper kedalaman, yang terinspirasi dari Wallpaper Subject Segmentation milik iOS, memungkinkan subjek ditampilkan di atas jam layar kunci untuk menghasilkan efek kedalaman wallpaper.\n\nUntuk menyiapkan fitur Wallpaper Kedalaman:\n1. Atur wallpaper dengan subjek atau latar belakang yang ingin Anda letakkan di bawah subjek.\n2. Pilih gambar subjek yang akan dilacak; gambar ini akan ditampilkan di atas jam layar kunci.\n3. Ubah offset dan opasitas sesuai kebutuhan Anda.
+    </string>
+    <string name="depthwall_wallpaper_enabled_summary">Aktifkan wallpaper kedalaman ala iOS. Memerlukan gambar subjek.</string>
+    <string name="depthwall_wallpaper_enabled_title">Wallpaper kedalaman</string>
+    <string name="depthwall_wallpaper_opacity_title">Opasitas wallpaper kedalaman</string>
+    <string name="dynamic_bar_keyguard_music_pill">Kapsul musik di layar kunci</string>
+    <string name="dynamic_bar_keyguard_music_pill_summary">Tampilkan pemutar musik sebagai kapsul di layar kunci</string>
+    <string name="enable">Aktifkan</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="fp_error_vibrate_summary">Getar saat autentikasi sidik jari gagal</string>
+    <string name="fp_error_vibrate_title">Getaran kesalahan sidik jari</string>
+    <string name="fp_success_vibrate_summary">Getar saat autentikasi sidik jari berhasil</string>
+    <string name="fp_success_vibrate_title">Getaran autentikasi sidik jari</string>
+    <string name="gestures_title">Gestur</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="keyguard_affordance_single_tap_summary">Alihkan affordance keyguard dengan satu ketukan</string>
+    <string name="keyguard_affordance_single_tap_title">Ketukan tunggal affordance keyguard</string>
+    <string name="keyguard_scrim_transparent_summary">Sembunyikan lapisan peredupan wallpaper layar kunci</string>
+    <string name="keyguard_scrim_transparent_title">Scrim layar kunci transparan</string>
+    <string name="kg_user_switcher_enabled_summary">Tampilkan pengalih pengguna saat menampilkan prompt PIN/kata sandi</string>
+    <string name="kg_user_switcher_enabled_title">Pengalih pengguna</string>
+    <string name="lock_screen_custom_clock_wobble_on_charge_summary">Tampilkan efek goyang pada jam saat terhubung ke pengisi daya</string>
+    <string name="lock_screen_custom_clock_wobble_on_charge_title">Efek goyang saat mengisi daya</string>
+    <string name="lock_screen_title">Layar kunci</string>
+    <string name="lockscreen_battery_info_summary">Tampilkan info baterai saat mengisi daya</string>
+    <string name="lockscreen_battery_info_title">Info baterai</string>
+    <string name="lockscreen_charging_time_summary">Tampilkan sisa waktu hingga pengisian daya selesai</string>
+    <string name="lockscreen_charging_time_title">Waktu pengisian daya layar kunci</string>
+    <string name="lockscreen_custom_clock_animation_category_title">Animasi</string>
+    <string name="lockscreen_custom_clock_aod_anim_summary">Atur animasi AOD untuk gaya jam kustom</string>
+    <string name="lockscreen_custom_clock_aod_anim_title">Animasi AOD jam kustom</string>
+    <string name="lockscreen_custom_clock_color_category_title">Warna</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Mode warna jam kustom</string>
+    <string name="lockscreen_custom_clock_frame_margin_start_summary">Atur lebar gaya jam kustom</string>
+    <string name="lockscreen_custom_clock_frame_margin_start_title">Lebar jam kustom</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Atur tinggi gaya jam kustom</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Tinggi jam kustom</string>
+    <string name="lockscreen_custom_clock_gradient_anchor_y_summary">Atur posisi titik tengah gradasi secara vertikal</string>
+    <string name="lockscreen_custom_clock_gradient_anchor_y_title">Jangkar gradasi</string>
+    <string name="lockscreen_custom_clock_gradient_category_title">Gradasi</string>
+    <string name="lockscreen_custom_clock_gradient_enabled_summary">Terapkan gradasi dua warna pada teks jam sebagai ganti warna polos. Menimpa mode warna lain</string>
+    <string name="lockscreen_custom_clock_gradient_enabled_title">Teks gradasi</string>
+    <string name="lockscreen_custom_clock_gradient_end_title">Warna akhir gradasi</string>
+    <string name="lockscreen_custom_clock_gradient_radius_summary">Atur seberapa jauh gradasi menyebar dari titik jangkarnya</string>
+    <string name="lockscreen_custom_clock_gradient_radius_title">Sebaran gradasi</string>
+    <string name="lockscreen_custom_clock_gradient_start_title">Warna awal gradasi</string>
+    <string name="lockscreen_custom_clock_layout_category_title">Ukuran &amp; posisi</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Atur transparansi gaya jam kustom</string>
+    <string name="lockscreen_custom_clock_opacity_title">Opasitas jam kustom</string>
+    <string name="lockscreen_custom_clock_style_info">Gaya jam kustom menggantikan gaya jam AOSP dengan jam kustom. Smartspace akan dinonaktifkan. Anda dapat mengaktifkan dan menggunakan cuaca kustom sebagai gantinya.</string>
+    <string name="lockscreen_custom_clock_style_summary">Atur gaya jam layar kunci</string>
+    <string name="lockscreen_custom_clock_style_title">Gaya jam kustom</string>
+    <string name="lockscreen_custom_image_enabled_title">Gambar avatar AOD</string>
+    <string name="lockscreen_custom_image_pick_summary">Pilih gambar AOD dari galeri</string>
+    <string name="lockscreen_custom_image_summary">Atur gambar AOD kustom</string>
+    <string name="lockscreen_custom_image_title">Pilih gambar AOD</string>
+    <string name="lockscreen_display_widgets_summary">Tampilkan widget info perangkat di layar kunci</string>
+    <string name="lockscreen_display_widgets_title">Widget info perangkat</string>
+    <string name="lockscreen_doubletap_sleep_summary">Ketuk dua kali pada layar kunci untuk menidurkan perangkat</string>
+    <string name="lockscreen_doubletap_sleep_title">Ketuk untuk tidur</string>
+    <string name="lockscreen_emergency_button_summary">Tampilkan tombol panggilan darurat di layar kunci</string>
+    <string name="lockscreen_emergency_button_title">Tampilkan tombol darurat</string>
+    <string name="lockscreen_enable_power_menu_summary">Izinkan akses menu daya pada layar kunci yang aman</string>
+    <string name="lockscreen_enable_power_menu_title">Menu daya</string>
+    <string name="lockscreen_interface_category">Antarmuka</string>
+    <string name="lockscreen_media_art_blur_level_summary">Intensitas buram saat filter buram diterapkan</string>
+    <string name="lockscreen_media_art_blur_level_title">Level buram sampul media</string>
+    <string name="lockscreen_media_art_fade_level_summary">Lapisan gelap agar teks lebih mudah dibaca</string>
+    <string name="lockscreen_media_art_fade_level_title">Level pudar sampul media</string>
+    <string name="lockscreen_media_art_filter_summary">Pilih filter visual untuk sampul media</string>
+    <string name="lockscreen_media_art_filter_title">Filter sampul media</string>
+    <string name="lockscreen_media_art_pixel_size_summary">Atur ukuran piksel untuk sampul media yang ditampilkan di layar kunci</string>
+    <string name="lockscreen_media_art_pixel_size_title">Ukuran piksel sampul media</string>
+    <string name="lockscreen_smartspace_summary">Tampilkan Google Smartspace jika tersedia</string>
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_weather_category">Cuaca</string>
+    <string name="lockscreen_weather_humidity_info_summary">Tampilkan kelembapan saat ini dalam persen</string>
+    <string name="lockscreen_weather_humidity_info_title">Info kelembapan</string>
+    <string name="lockscreen_weather_location_summary">Tampilkan lokasi cuaca saat ini</string>
+    <string name="lockscreen_weather_location_title">Lokasi saat ini</string>
+    <string name="lockscreen_weather_summary">Tampilkan pembaruan cuaca saat ini</string>
+    <string name="lockscreen_weather_text_summary">Tampilkan ringkasan kondisi cuaca saat ini</string>
+    <string name="lockscreen_weather_text_title">Kondisi saat ini</string>
+    <string name="lockscreen_weather_title">Pembaruan cuaca</string>
+    <string name="lockscreen_weather_wind_info_summary">Tampilkan kecepatan dan arah angin saat ini</string>
+    <string name="lockscreen_weather_wind_info_title">Info angin</string>
+    <string name="lockscreen_widgets_color_mode_title">Mode warna widget info</string>
+    <string name="lockscreen_widgets_enabled_summary">Tambahkan widget ke layar kunci</string>
+    <string name="lockscreen_widgets_enabled_title">Aktifkan widget layar kunci</string>
+    <string name="lockscreen_widgets_style1">Material membulat</string>
+    <string name="lockscreen_widgets_style2">Material persegi</string>
+    <string name="lockscreen_widgets_style3">Persegi tembus cahaya</string>
+    <string name="lockscreen_widgets_style4">Membulat tembus cahaya</string>
+    <string name="lockscreen_widgets_style5">Persegi buram</string>
+    <string name="lockscreen_widgets_style6">Membulat buram</string>
+    <string name="lockscreen_widgets_style_title">Gaya widget layar kunci</string>
+    <string name="lockscreen_widgets_title">Widget</string>
+    <string name="lockscreen_widgets_transparency_summary">Atur level opasitas widget bergaya tembus cahaya</string>
+    <string name="lockscreen_widgets_transparency_title">Transparansi gaya tembus cahaya</string>
+    <string name="ls_clock_summary">Atur gaya jam dan widget Anda</string>
+    <string name="ls_clock_title">Jam layar kunci</string>
+    <string name="ls_media_art_summary">Tampilkan sampul media jika tersedia</string>
+    <string name="ls_media_art_title">Sampul media</string>
+    <string name="main_custom_widgets1">Widget besar 1</string>
+    <string name="main_custom_widgets2">Widget besar 2</string>
+    <string name="media">Pemutar media</string>
+    <string name="misc_title">Lain-lain</string>
+    <string name="nowplaying_artist_text_size_summary">Ukuran teks nama artis/album</string>
+    <string name="nowplaying_artist_text_size_title">Ukuran nama artis</string>
+    <string name="nowplaying_color_mode_title">Mode warna teks</string>
+    <string name="nowplaying_compact_style_summary">Tampilkan dalam satu baris dengan ukuran teks judul lagu</string>
+    <string name="nowplaying_compact_style_title">Gaya kompak</string>
+    <string name="nowplaying_display_title">Opsi tampilan</string>
+    <string name="nowplaying_expand_dialog">Luaskan dialog</string>
+    <string name="nowplaying_expand_dialog_summary">Luaskan dialog Sedang diputar</string>
+    <string name="nowplaying_icon_size_summary">Atur ukuran ikon</string>
+    <string name="nowplaying_icon_size_title">Ukuran ikon</string>
+    <string name="nowplaying_icon_style_summary">Pilih ikon yang akan ditampilkan</string>
+    <string name="nowplaying_icon_style_title">Gaya ikon</string>
+    <string name="nowplaying_info_summary">Sedang diputar menampilkan judul dan artis musik yang sedang diputar di layar kunci dan layar selalu aktif. Tampil otomatis saat musik diputar dan hilang saat dihentikan. Posisinya dapat diatur agar muncul di mana saja dari atas hingga bawah layar.</string>
+    <string name="nowplaying_lyrics_mode_summary">Tampilkan lirik tersinkron sebagai ganti judul lagu dan ikon</string>
+    <string name="nowplaying_lyrics_mode_title">Mode lirik</string>
+    <string name="nowplaying_show_on_aod_summary">Tampilkan info musik pada tampilan ambient</string>
+    <string name="nowplaying_show_on_aod_title">Tampilkan di layar selalu aktif</string>
+    <string name="nowplaying_show_on_lockscreen_summary">Tampilkan info musik saat perangkat terkunci</string>
+    <string name="nowplaying_show_on_lockscreen_title">Tampilkan di layar kunci</string>
+    <string name="nowplaying_summary">Tampilkan info musik yang sedang diputar di layar kunci dan AOD</string>
+    <string name="nowplaying_title">Sedang diputar</string>
+    <string name="nowplaying_track_text_size_summary">Ukuran teks judul lagu</string>
+    <string name="nowplaying_track_text_size_title">Ukuran judul lagu</string>
+    <string name="nowplaying_vertical_position_summary">Atur posisi dari atas hingga bawah layar</string>
+    <string name="nowplaying_vertical_position_title">Padding atas</string>
+    <string name="pulse_bar_count_summary">Atur jumlah bar yang ditampilkan pada visualizer</string>
+    <string name="pulse_bar_count_title">Jumlah bar</string>
+    <string name="pulse_bar_count_units">bar</string>
+    <string name="pulse_bass_haptics_always">Setiap kali pemutaran media aktif</string>
+    <string name="pulse_bass_haptics_none">Tanpa getaran halus pada lonjakan bass yang tajam</string>
+    <string name="pulse_bass_haptics_running">Hanya saat pulse ditampilkan</string>
+    <string name="pulse_bass_haptics_title">Haptik bass</string>
+    <string name="pulse_capture_mode_amplitude">Amplitudo (Gelombang)</string>
+    <string name="pulse_capture_mode_fft">FFT (Frekuensi)</string>
+    <string name="pulse_capture_mode_title">Mode penangkapan audio</string>
+    <string name="pulse_color">Warna visualizer</string>
+    <string name="pulse_color_accent">Warna aksen</string>
+    <string name="pulse_color_album">Sampul album</string>
+    <string name="pulse_color_lavalamp">Lavalamp</string>
+    <string name="pulse_height_multiplier_summary">Atur tinggi visualisasi</string>
+    <string name="pulse_height_multiplier_title">Tinggi pulse</string>
+    <string name="pulse_renderer">Gaya visualizer</string>
+    <string name="pulse_renderer_dot_wave">Gelombang titik</string>
+    <string name="pulse_renderer_fading">Blok memudar</string>
+    <string name="pulse_renderer_matrix">Matriks</string>
+    <string name="pulse_renderer_minimal_wave">Gelombang minimal</string>
+    <string name="pulse_renderer_neon_glow">Cahaya neon</string>
+    <string name="pulse_renderer_particle">Partikel</string>
+    <string name="pulse_renderer_retro_vu_meter">VU meter retro</string>
+    <string name="pulse_renderer_solid">Garis solid</string>
+    <string name="pulse_renderer_sparkle">Kilau</string>
+    <string name="pulse_renderer_waveform">Bentuk gelombang</string>
+    <string name="pulse_rounded_bars_summary">Tampilkan bar visualizer dengan sudut membulat</string>
+    <string name="pulse_rounded_bars_title">Bar membulat</string>
+    <string name="pulse_settings_summary">Tampilkan visualizer bar di layar kunci saat musik diputar</string>
+    <string name="pulse_settings_title">Visualizer Pulse</string>
+    <string name="pulse_show_on_ambient_summary">Tampilkan visualizer di layar selalu aktif dan mode ambient. Nonaktifkan agar hanya tampil di layar kunci.</string>
+    <string name="pulse_show_on_ambient_title">Tampilkan di tampilan ambient</string>
+    <string name="qr_scanner">Pemindai QR</string>
+    <string name="qs_clock_title">Jam</string>
+    <string name="ringer">Mode dering</string>
+    <string name="show_on_aod_summary">Tampilkan sampul media di layar selalu aktif</string>
+    <string name="show_on_aod_title">Tampilkan di AOD</string>
+    <string name="status_bar_date_none">Tersembunyi</string>
+    <string name="theme_customization_lock_clock_title">Tampilan jam</string>
+    <string name="torch">Senter</string>
+    <string name="udfps_animation_offset_summary">Atur posisi vertikal animasi sidik jari</string>
+    <string name="udfps_animation_offset_title">Offset animasi UDFPS</string>
+    <string name="udfps_animation_size_summary">Atur ukuran animasi sidik jari</string>
+    <string name="udfps_animation_size_title">Ukuran animasi UDFPS</string>
+    <string name="udfps_cust_summary">Sesuaikan ikon dan animasi sidik jari</string>
+    <string name="udfps_cust_title">Ikon dan animasi UDFPS</string>
+    <string name="udfps_custom_footer_text">Atur ikon kustom apa pun pada ikon bawaan sebelum beralih atau menerapkan ikon kustom. Setelah perangkat dimulai ulang, mulai ulang SystemUI satu kali untuk memperbaiki masalah ikon kustom yang tidak terlihat/kosong. </string>
+    <string name="udfps_custom_icon_select_summary">Pilih gambar dari galeri</string>
+    <string name="udfps_custom_icon_select_title">Pilih ikon kustom</string>
+    <string name="udfps_custom_title">Kustomisasi UDFPS</string>
+    <string name="udfps_icon_aod_summary">Gunakan ikon UDFPS kustom di layar selalu aktif</string>
+    <string name="udfps_icon_aod_title">Ikon UDFPS AOD</string>
+    <string name="udfps_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
+    <string name="udfps_icon_picker_title">Ikon bawaan UDFPS</string>
+    <string name="udfps_icon_type_title">Jenis ikon</string>
+    <string name="udfps_recog_animation_effect_summary">Pilih efek animasi</string>
+    <string name="udfps_recog_animation_effect_title">Animasi kustom UDFPS</string>
+    <string name="unit_pixels" translatable="false">dp</string>
+    <string name="wallet">Wallet</string>
+    <string name="weather">Cuaca</string>
+    <string name="weather_settings_summary">Siapkan paket ikon dan layanan cuaca</string>
+    <string name="weather_settings_title">Pengaturan cuaca</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="lockscreen_weather_enabled_info">Memerlukan layanan cuaca kustom yang telah dikonfigurasi dan smartspace dinonaktifkan</string>
+    <string name="systemui_restart_title">Perlu memulai ulang SystemUI</string>
+    <string name="systemui_restart_message">Agar perubahan diterapkan, SystemUI perlu dimulai ulang. Mulai ulang SystemUI sekarang?</string>
+    <string name="systemui_restart_yes">Ya</string>
+    <string name="systemui_restart_not_now">Nanti saja</string>
+    <string name="udfps_custom_icon_selected">Ikon kustom diterapkan</string>
+    <string name="depthwall_clear_subject_confirm_message">Tindakan ini akan menghapus gambar subjek wallpaper kedalaman saat ini. Lanjutkan?</string>
+    <string name="systemui_restart_process">Memulai ulang SystemUI untuk menerapkan perubahan...</string>
+</resources>

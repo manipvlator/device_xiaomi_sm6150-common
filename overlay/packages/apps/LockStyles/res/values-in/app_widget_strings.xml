@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_widget_browse">Pratinjau, tambahkan, dan atur widget dari aplikasi Anda</string>
+    <string name="app_widget_show">Tampilkan widget aplikasi</string>
+    <string name="app_widget_picker_summary">Pilih widget untuk ditambahkan ke layar kunci.</string>
+    <string name="app_widget_search">Cari aplikasi dan widget</string>
+    <string name="app_widget_count">Widget: %1$d</string>
+    <string name="app_widget_dimensions">%1$d × %2$d</string>
+    <string name="app_widget_no_results">Tidak ada aplikasi atau widget yang cocok</string>
+    <string name="app_widget_no_preview">Pratinjau tidak tersedia</string>
+    <string name="app_widget_back">Kembali ke widget aplikasi</string>
+    <string name="app_widget_close">Tutup widget aplikasi</string>
+</resources>

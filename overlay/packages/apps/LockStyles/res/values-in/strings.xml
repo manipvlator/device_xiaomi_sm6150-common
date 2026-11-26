@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Lunaris-AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name" translatable="false">Knock Lock</string>
+    <string name="lock_settings">Pengaturan layar kunci</string>
+    <string name="apply_change">Terapkan</string>
+    <string name="gallery_applied">Layar kunci diterapkan</string>
+    <string name="clock_style_in_gallery">Gaya jam</string>
+    <string name="clock_style_in_gallery_summary">Gaya, warna, dan ukuran, diatur untuk setiap layar kunci di Sesuaikan</string>
+    <string name="notifications_above_clock_title">Notifikasi di atas jam</string>
+    <string name="notifications_above_clock_summary">Tampilkan notifikasi di dekat bagian atas layar kunci, di atas jam kustom, agar gaya layar penuh tidak mendorongnya keluar layar</string>
+    <string name="depth_in_gallery">Aktifkan kedalaman untuk wallpaper saat ini di sini, atau untuk layar kunci foto tersimpan di Sesuaikan. Penyesuaian posisi dan pudar berlaku untuk semua wallpaper kedalaman.</string>
+    <string name="credits_title">Kredit</string>
+    <string name="credits_wallwidgy">Wallpaper, dari WallWidgy</string>
+    <string name="credits_gallery">Galeri layar kunci bergaya iOS, dari PenguinOS</string>
+    <string name="credits_singularity">Pengaturan layar kunci, dari Singularity</string>
+    <string name="credits_ax_blur">Material kaca buram, dari ax_blur milik AxionOS</string>
+    <string name="clock_font_default">Default</string>
+    <string name="depthwall_extract_unavailable">Pengekstrak subjek dari Pengaturan tidak tersedia</string>
+    <string name="depthwall_subject_save_failed">Tidak dapat menyimpan gambar subjek. Gambar sebelumnya tidak berubah.</string>
+    <string name="depthwall_apply_failed">Wallpaper diterapkan, tetapi ekstraksi kedalaman belum selesai. Coba lagi dari pengaturan Wallpaper kedalaman.</string>
+    <string name="gallery_apply_failed">Tidak dapat menerapkan wallpaper. Coba lagi.</string>
+    <string name="depth_wallpaper_offset_x_title">Posisi horizontal subjek</string>
+    <string name="depth_wallpaper_offset_y_title">Posisi vertikal subjek</string>
+    <string name="custom_clock_rotation_title">Rotasi jam</string>
+    <string name="clock_tilt_x_title">Kemiringan pada sumbu horizontal</string>
+    <string name="clock_tilt_y_title">Kemiringan pada sumbu vertikal</string>
+    <string name="lock_screen_custom_clock_hyper_blur_title">Perpaduan warna buram</string>
+    <string name="gallery_clock_colour_hex">Warna hex (RRGGBB atau AARRGGBB)</string>
+    <string name="depthwall_extracting_toast">Mengekstrak subjek dari wallpaper…</string>
+    <string name="clock_digit_alignment_center">Digit di tengah</string>
+    <string name="clock_digit_alignment_edges">Tepi luar tetap</string>
+    <string name="clock_digit_alignment_font">Jarak font</string>
+    <string name="clock_digit_alignment_title">Perataan digit</string>
+</resources>

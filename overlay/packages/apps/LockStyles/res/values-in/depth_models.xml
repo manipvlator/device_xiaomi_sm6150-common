@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="depth_wallpaper_models_title">Model wallpaper kedalaman</string>
+<string name="models_delete">Hapus model yang diunduh</string>
+<string name="models_download">Unduh semua model</string>
+<string name="models_downloading">Mengunduh model</string>
+<string name="models_offline">Penyimpanan model luring</string>
+<string name="models_ready">Tersedia luring</string>
+<string name="models_size">%1$s dari %2$s · %3$s</string>
+</resources>

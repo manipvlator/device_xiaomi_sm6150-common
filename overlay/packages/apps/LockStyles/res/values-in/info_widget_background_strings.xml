@@ -1,0 +1,7 @@
+<resources>
+    <string name="info_background_title">Latar belakang widget info</string>
+    <string name="info_background_design">Desain asli</string>
+    <string name="info_background_ax_blur">Buram AX</string>
+    <string name="info_background_liquid_glass">Liquid Glass</string>
+    <string name="info_background_glass_help">Atur kaca pada kartu widget. Tint mengikuti warna widget Anda. Pengaturan ini berlaku untuk kedua baris dan widget bebas.</string>
+</resources>

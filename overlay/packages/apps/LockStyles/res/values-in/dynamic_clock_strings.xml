@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="dynamic_clock_use_big">Gunakan jam besar</string>
+<string name="dynamic_clock_use_big_summary">Salin jam besar di posisi yang sama, lalu atur ukuran atau renggangannya. Digit yang cocok akan merenggang atau menyusut dengan halus saat notifikasi berubah.</string>
+</resources>

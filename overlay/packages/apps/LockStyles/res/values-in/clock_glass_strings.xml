@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clock_glass_material">Liquid glass</string>
+    <string name="clock_glass_date_material">Liquid glass tanggal</string>
+    <string name="clock_glass_tint_help">Kaca mengikuti wallpaper. Opasitas warna memadukan warna teks yang dipilih. Tint tepi lembut bergeser dari putih ke warna wallpaper.</string>
+    <string name="clock_glass_blur_radius">Keburaman kaca</string>
+    <string name="clock_glass_glyph_blur">Kelembutan tepi teks</string>
+    <string name="clock_glass_tint_opacity">Opasitas warna</string>
+    <string name="clock_glass_contrast">Peningkatan kontras</string>
+    <string name="clock_glass_rim_strength">Intensitas cahaya tepi</string>
+    <string name="clock_glass_rim_rotation">Rotasi cahaya tepi</string>
+    <string name="clock_glass_soft_rim_strength">Intensitas tepi lembut</string>
+    <string name="clock_glass_soft_rim_width">Lebar tepi lembut</string>
+    <string name="clock_glass_soft_rim_tint">Tint tepi lembut</string>
+    <string name="clock_glass_refraction">Intensitas refraksi</string>
+    <string name="clock_glass_refraction_width">Lebar refraksi</string>
+    <string name="clock_glass_chromatic">Aberasi kromatik</string>
+    <string name="clock_glass_shadow">Intensitas bayangan kaca</string>
+    <string name="clock_glass_rim_width">Ketebalan tepi</string>
+    <string name="clock_glass_black_border">Garis tepi hitam</string>
+    <string name="clock_glass_black_border_strength">Intensitas garis tepi hitam</string>
+    <string name="clock_glass_separate_clock">Pisahkan refraksi dan tepi jam</string>
+    <string name="clock_glass_clock_refraction">Intensitas refraksi jam</string>
+    <string name="clock_glass_clock_refraction_width">Lebar refraksi jam</string>
+    <string name="clock_glass_clock_rim">Cahaya tepi jam</string>
+    <string name="clock_glass_separate_date">Pisahkan visual tanggal</string>
+    <string name="clock_glass_separate_date_refraction">Pisahkan refraksi dan tepi tanggal</string>
+    <string name="clock_glass_date_refraction">Intensitas refraksi tanggal</string>
+    <string name="clock_glass_date_refraction_width">Lebar refraksi tanggal</string>
+    <string name="clock_glass_date_rim">Cahaya tepi tanggal</string>
+    <string name="clock_glass_reset">Setel ulang visual kaca</string>
+</resources>
