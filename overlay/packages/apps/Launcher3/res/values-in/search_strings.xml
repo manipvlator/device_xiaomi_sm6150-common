@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="search_section_conversations">Obrolan</string>
+<string name="search_section_shortcuts">Pintasan</string>
+<string name="search_section_contacts">Kontak</string>
+<string name="search_section_settings">Pengaturan</string>
+<string name="search_sources_title">Sumber pencarian</string>
+<string name="search_shortcuts_title">Pintasan aplikasi</string>
+<string name="search_shortcuts_summary">Sertakan pintasan yang diterbitkan aplikasi dalam pencarian laci</string>
+<string name="search_conversations_title">Obrolan</string>
+<string name="search_conversations_summary">Sertakan obrolan terbaru dari aplikasi pesan</string>
+<string name="search_contacts_title">Kontak</string>
+<string name="search_contacts_summary">Sertakan kontak. Memerlukan izin untuk membaca kontak Anda.</string>
+<string name="search_settings_title">Pengaturan</string>
+<string name="search_settings_summary">Sertakan entri Pengaturan agar Anda bisa langsung menuju ke sebuah halaman</string>
+<string name="search_section_qs_tiles">Pengaturan cepat</string>
+<string name="search_qs_tiles_title">Ubin pengaturan cepat</string>
+<string name="search_qs_tiles_summary">Temukan ubin pengaturan cepat dan aktifkan atau nonaktifkan langsung dari pencarian</string>
+<string name="search_section_calculator">Kalkulator</string>
+<string name="search_section_files">Berkas</string>
+<string name="search_section_events">Kalender</string>
+<string name="search_section_actions">Tindakan</string>
+<string name="search_action_web">Cari di web untuk \"%1$s\"</string>
+<string name="search_action_in_app">Cari di %1$s</string>
+<string name="search_calculator_title">Kalkulator</string>
+<string name="search_calculator_summary">Jawab penjumlahan, konversi satuan dan mata uang, zona waktu, serta hitungan tanggal saat Anda mengetik. Nilai tukar diunduh dari ECB.</string>
+<string name="search_files_title">Berkas dan media</string>
+<string name="search_files_summary">Temukan media yang dapat diakses berdasarkan nama, atau ketik “tangkapan layar” atau “unduhan”</string>
+<string name="search_events_title">Acara kalender</string>
+<string name="search_events_summary">Sertakan acara kalender. Memerlukan izin untuk membaca kalender Anda.</string>
+<string name="search_actions_title">Pencarian web dan dalam aplikasi</string>
+<string name="search_actions_summary">Tawarkan pencarian di web, dalam aplikasi, atau di toko aplikasi, serta pencarian arti kata</string>
+<string name="search_permission_summary">Ketuk untuk mengizinkan akses di info aplikasi</string>
+<string name="search_permission_contacts">Izinkan akses kontak untuk mencari kontak</string>
+<string name="search_permission_calendar">Izinkan akses kalender untuk mencari acara</string>
+<string name="search_permission_files">Izinkan akses media untuk mencari berkas</string>
+<string name="search_section_quick_actions">Tindakan cepat</string>
+<string name="search_quick_actions_title">Tindakan cepat</string>
+<string name="search_quick_actions_summary">Pahami frasa seperti \"timer 5m\", \"alarm 07.30\", \"kirim pesan ke Sam\", nomor telepon, dan alamat web</string>
+<string name="search_action_timer">Atur timer selama %1$s</string>
+<string name="search_action_alarm">Atur alarm untuk %1$s</string>
+<string name="search_action_call">Panggil %1$s</string>
+<string name="search_action_text">Kirim pesan ke %1$s</string>
+<string name="search_action_email">Kirim email ke %1$s</string>
+<string name="search_action_add_contact">Tambahkan ke kontak</string>
+<string name="search_action_open">Buka %1$s</string>
+<string name="search_action_reminder">Tambahkan \"%1$s\" ke kalender</string>
+<plurals name="search_duration_seconds">
+        <item quantity="one">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+<plurals name="search_duration_minutes">
+        <item quantity="one">%d menit</item>
+        <item quantity="other">%d menit</item>
+    </plurals>
+<plurals name="search_duration_hours">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+<string name="search_section_apps">Aplikasi</string>
+<string name="search_section_app_content">Dari aplikasi</string>
+<string name="search_section_web_suggestions">Saran web</string>
+<string name="search_section_history">Pencarian terbaru</string>
+<string name="search_filter_all">Semua</string>
+<string name="search_show_more">Tampilkan %1$d lagi</string>
+<string name="search_history_clear">Hapus riwayat pencarian</string>
+<string name="search_action_store">Cari \"%1$s\" di %2$s</string>
+<string name="search_action_define">Arti dari \"%1$s\"</string>
+<string name="search_action_define_in">Cari arti \"%1$s\" di %2$s</string>
+<string name="search_time_in">%1$s · %2$s · %3$s</string>
+<string name="search_menu_copy">Salin</string>
+<string name="search_menu_call">Panggil</string>
+<string name="search_menu_message">Pesan</string>
+<string name="search_menu_copy_number">Salin nomor</string>
+<string name="search_menu_share">Bagikan</string>
+<string name="search_menu_open_with">Buka dengan…</string>
+<string name="search_menu_open_settings">Buka pengaturan</string>
+<string name="search_menu_add_to_home">Tambahkan ke Layar Utama</string>
+<string name="search_menu_app_info">Info aplikasi</string>
+<string name="search_pin_unsupported">Tidak dapat menambahkan ke \'Layar Utama\'</string>
+<string name="search_app_content_title">Konten dari aplikasi</string>
+<string name="search_app_content_summary">Sertakan catatan, pesan, dan item lain yang dibagikan aplikasi ke indeks pencarian sistem</string>
+<string name="search_web_suggestions_title">Saran web</string>
+<string name="search_web_suggestions_summary">Sarankan pencarian saat Anda mengetik. Ketikan Anda dikirim ke mesin yang dipilih. Pilih mesin selain Bawaan sistem untuk mengaktifkannya.</string>
+<string name="search_engine_title">Mesin pencari</string>
+<string name="search_behavior_title">Perilaku pencarian</string>
+<string name="search_history_title">Riwayat pencarian</string>
+<string name="search_history_summary">Tampilkan pencarian terbaru dan utamakan yang sering Anda buka</string>
+<string name="search_section_order_title">Urutan bagian</string>
+<string name="search_section_order_summary">Pilih jenis hasil yang muncul lebih dulu</string>
+<string name="search_section_order_reset">Atur ulang</string>
+<string name="search_section_order_drag">Geser untuk mengurutkan</string>
+<string name="search_max_per_section_title">Hasil per bagian</string>
+<string-array name="search_engine_entries">
+        <item>Bawaan sistem</item>
+        <item>Google</item>
+        <item>DuckDuckGo</item>
+        <item>Bing</item>
+        <item>Brave Search</item>
+    </string-array>
+<string name="search_section_photos">Foto</string>
+<string name="search_section_screenshots">Tangkapan layar terbaru</string>
+<string name="search_photo">Foto</string>
+<string name="search_action_in_google_photos">Cari \"%1$s\" di Google Foto</string>
+<string name="search_photos_title">Foto berdasarkan konten</string>
+<string name="search_photos_summary">Temukan foto berdasarkan isinya, seperti \"kucing\" atau \"pantai\". Foto diberi label di perangkat ini, terutama saat pengisian daya.</string>
+<string name="search_recent_screenshots_title">Tangkapan layar terbaru</string>
+<string name="search_recent_screenshots_summary">Tampilkan tangkapan layar terbaru dalam pencarian sebelum Anda mengetik</string>
+<string name="search_whatsapp">WhatsApp</string>
+<string name="search_history_remove">Hapus dari pencarian terbaru</string>
+<string name="search_currency_source">%1$s · Nilai tukar ECB, %2$s</string>
+<string name="search_currency_source_stale">%1$s · Nilai tukar ECB dari %2$s, luring</string>
+<string name="universal_search_title">Pencarian universal</string>
+<string name="universal_search_summary">Sumber pencarian, riwayat, dan preferensi hasil</string>
+<string name="universal_search_hint">Cari aplikasi dan lainnya</string>
+<string name="search_toggle_on">Aktif</string>
+<string name="search_toggle_off">Nonaktif</string>
+<string name="search_glanceable_title">Kartu ringkasan sekilas</string>
+<string name="search_glanceable_summary">Tampilkan acara kalender mendatang, alarm, atau info baterai sebelum mengetik</string>
+<string name="search_section_recent_downloads">Unduhan terbaru</string>
+<string name="search_recent_downloads_title">Unduhan terbaru</string>
+<string name="search_recent_downloads_summary">Tampilkan berkas yang baru diunduh sebelum mengetik</string>
+<string name="spotlight_clear_query">Hapus pencarian</string>
+<string name="spotlight_top_hit">Hasil teratas</string>
+<string name="spotlight_hint">Cari</string>
+<string name="spotlight_closed">Pencarian ditutup</string>
+<string name="spotlight_no_results">Tidak ada hasil untuk \"%1$s\"</string>
+<string name="spotlight_voice">Pencarian suara</string>
+<string name="spotlight_clipboard_link">Tautan di papan klip</string>
+<string name="spotlight_open_link">Buka tautan</string>
+<string name="spotlight_now_playing">Sedang diputar</string>
+<string name="spotlight_suggestions">Saran</string>
+<string name="spotlight_play">Putar %1$s</string>
+<string name="search_pref_spotlight_suggestions">Saran Spotlight</string>
+<string name="search_pref_spotlight_suggestions_summary">Aplikasi yang disarankan, tautan yang disalin, dan \'apa yang sedang diputar\' saat Spotlight dibuka</string>
+</resources>

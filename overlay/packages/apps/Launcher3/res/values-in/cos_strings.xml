@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="cos_app_animations_title">Animasi aplikasi ColorOS</string>
+<string name="cos_app_animations_summary">Animasi pegas saat membuka dan menutup aplikasi, dengan peluncuran paralel saat kembali ke Layar Utama</string>
+<string name="cos_app_animations_warning">Animasi aplikasi ColorOS memerlukan dukungan ADPF yang tepat di perangkat agar berfungsi dengan baik. Tidak cocok untuk perangkat kelas bawah.</string>
+<string name="cos_app_animations_enable">Aktifkan</string>
+</resources>

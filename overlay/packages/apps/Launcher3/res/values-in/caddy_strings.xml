@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="caddy_shopping">Belanja</string>
+<string name="caddy_health">Kesehatan &amp; kebugaran</string>
+<string name="caddy_education">Pendidikan</string>
+<string name="caddy_business">Bisnis</string>
+<string name="caddy_utilities">Utilitas</string>
+<string name="caddy_games">Game</string>
+<string name="caddy_lifestyle">Gaya hidup</string>
+<string name="caddy_finance">Keuangan</string>
+<string name="caddy_entertainment">Hiburan</string>
+<string name="caddy_multimedia">Multimedia</string>
+<string name="caddy_travel">Perjalanan</string>
+<string name="caddy_favorites">Aplikasi favorit</string>
+<string name="caddy_edit_favorites">Ubah aplikasi favorit</string>
+<string name="caddy_hold_to_edit">Sentuh dan tahan untuk mengubah aplikasi favorit</string>
+<string name="caddy_choose_favorites">Pilih maksimal empat aplikasi. Tempat kosong menyarankan aplikasi berdasarkan penggunaan terbaru Anda.</string>
+<string name="caddy_favorites_count">%1$d dari 4 dipilih</string>
+<string name="caddy_favorites_limit">Pilih maksimal empat aplikasi</string>
+<string name="caddy_use_suggestions">Gunakan aplikasi yang disarankan</string>
+<string name="caddy_search_apps">Cari aplikasi</string>
+<string name="caddy_no_apps">Tidak ada aplikasi yang cocok</string>
+<string name="caddy_close">Tutup</string>
+<string name="caddy_save">Simpan</string>
+<string name="caddy_open_category">Buka %1$s, %2$d aplikasi</string>
+<plurals name="caddy_app_count">
+        <item quantity="one">%1$d aplikasi</item>
+        <item quantity="other">%1$d aplikasi</item>
+    </plurals>
+</resources>

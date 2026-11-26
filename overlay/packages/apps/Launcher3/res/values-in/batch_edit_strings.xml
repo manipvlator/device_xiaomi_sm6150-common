@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="batch_edit_done">Selesai</string>
+<string name="batch_edit_hint">Ketuk aplikasi untuk memilih. Geser ke halaman lain, atau pilih Pindah ke sini atau Folder.</string>
+<string name="batch_edit_move_here">Pindah ke sini</string>
+<string name="batch_edit_new_page">Halaman baru</string>
+<string name="batch_edit_select_apps">Pilih aplikasi</string>
+<string name="batch_edit_selected">Dipilih</string>
+<string name="batch_edit_not_selected">Belum dipilih</string>
+<string name="batch_edit_no_space">Tidak cukup ruang untuk semua aplikasi yang dipilih. Pilih halaman lain.</string>
+<string name="batch_edit_folders">Folder</string>
+<string name="batch_edit_create_folder">Buat folder</string>
+<string name="batch_edit_move_to_folder">Pindah ke folder</string>
+<string name="batch_edit_ungroup_folder">Bubarkan folder</string>
+<string name="batch_edit_folder_name">Nama folder</string>
+<string name="batch_edit_default_folder_name">Folder</string>
+<string name="batch_edit_folder_on_page">%1$s · Halaman %2$d</string>
+<string name="batch_edit_folder_in_dock">%1$s · Dock</string>
+<string name="batch_edit_folder_minimum">Pilih minimal dua aplikasi untuk membuat folder.</string>
+<string name="batch_edit_folder_select_apps">Pilih aplikasi untuk dipindahkan ke folder.</string>
+<string name="batch_edit_folder_standard_icons">Folder hanya menerima ikon aplikasi dan pintasan standar 1 × 1. Ubah ukuran ikon yang lebih besar sebelum mengelompokkannya.</string>
+<string name="batch_edit_no_folders">Tidak ada folder.</string>
+<string name="batch_edit_folder_unavailable">Folder atau aplikasi yang dipilih telah berubah. Coba lagi.</string>
+<string name="batch_edit_folder_created">Folder dibuat</string>
+<string name="batch_edit_apps_grouped">Aplikasi yang dipilih dipindahkan ke %1$s</string>
+<string name="batch_edit_folder_ungrouped">Aplikasi dipindahkan dari %1$s ke Layar Utama</string>
+<string name="batch_edit_ungroup_message">Pindahkan semua aplikasi dari %1$s ke Layar Utama? Halaman baru akan ditambahkan jika perlu.</string>
+<plurals name="batch_edit_count">
+        <item quantity="one">%d aplikasi dipilih</item>
+        <item quantity="other">%d aplikasi dipilih</item>
+    </plurals>
+<plurals name="batch_edit_moved">
+        <item quantity="one">%d aplikasi dipindahkan</item>
+        <item quantity="other">%d aplikasi dipindahkan</item>
+    </plurals>
+</resources>
